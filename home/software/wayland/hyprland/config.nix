@@ -18,6 +18,7 @@ in {
       env = [
         "QT_WAYLAND_DISABLE_WINDOWDECORATION,1"
         "HYPRCURSOR_SIZE,20"
+        "AQ_DRM_DEVICES,/dev/dri/card1:/dev/dri/card0" # CHANGEME: Related to the GPU
       ];
       exec-once = [
         "hyprctl setcursor ${pointer.name} ${toString pointer.size}"

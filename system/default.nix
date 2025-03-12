@@ -3,7 +3,9 @@ let
     ./core/boot.nix
     ./core/default.nix
 
-    ./hardware/graphics.nix
+    # ./hardware/graphics.nix
+    ./hardware/intel.nix
+    ./hardware/nvidia.nix
     ./hardware/fwupd.nix
 
     ./network/default.nix
